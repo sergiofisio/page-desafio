@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    max-width: 100vw;
+    background-color: #FAFAFA;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    max-width: 1100px;
+    padding: 64px 160px 0;
+}
+
+header{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 4vw;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #33323D;
+    font-family: 'Public Sans';
+    font-size: 60%;
+    text-transform: uppercase;
+    margin: 3%;
+}
+a:active{
+    color: #5FB4A2;
+}
+
+a:hover{
+    color: #5FB4A2;
+}
+
+button{
+    display: flex;
+    height: 48px;
+    max-width: 165px;
+    border: none;
+    background-color: #203A4C;
+    color: #FFFFFF;
+    font-family: "Public Sans";
+    font-size: 12px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: #5FB4A2;
+}
+
+footer{
+    height: 314px;
+    max-width: 100%;
+    margin-top: 150px;
+}
+
+.contact{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact p{
+    height: 84px;
+    max-width: 367px;
+    
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    
+    color: #33323D;
+}
+
+.contact a{
+    margin: 0;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact button{
+    background-color: #F2F2F2;
+    color: #33323D;
+    border: 1px solid #33323D;
+    width: 60%;
+}
+
+.contact button:hover{
+    background-color: #33323D;
+    color: #F2F2F2;
+}
+
+section{
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: #33323D;
+    justify-content: center;
+}
+
+.footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.img-footer nav{
+    display: flex;
+    justify-content: flex-start;
+}
+.img-footer nav a{
+    color: #FFFFFF;
+    ;
+}
+
+.img-footer nav a:active{
+    color: #5FB4A2;
+}
+
+.img-footer nav a:hover{
+    color: #5FB4A2;
+}
+
+.social img{
+    padding: 0 5px;
+}
+
+
