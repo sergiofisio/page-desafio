@@ -1,29 +1,22 @@
-header{
-    margin-bottom: 94px;
-}
-
 .portifolio{
     display: flex;
-    margin-bottom: 80px;
+    margin-top: 94px;
+    height: 500px;
+    width: 1015px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .portifolio img{
-    width: 400px;
+    height: 500px;
+    width: 540px;    
 }
 
 .texto-portifolio{
     display: flex;
     width: 255px;
     flex-direction: column;
-    align-items: center;
-}
-
-.texto-direita{
-    margin: 0 0 0 125px;
-}
-
-.texto-esquerda{
-    margin: 0 125px 0 0;
+    align-items: flex-start;
 }
 
 .inverso{
@@ -34,21 +27,33 @@ header{
 .texto{
     display: flex;
     align-items: center;
+    height: 500px;
+    width: 350px;
 }
 
 .titulo{
-    font-family: "Ibarra Real Nova";
-    font-size: 40px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
     font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
     text-transform: capitalize;
     margin-bottom: 28px;
 }
 
 .descricao{
-    font-family: "Public Sans";
-    font-size: 12px;
+    height: 100%;
+    width: 350px;
+    font-family: 'Public Sans';
+    font-style: normal;
     font-weight: 400;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
 }
 
 .texto-portifolio a button{
@@ -61,9 +66,17 @@ header{
     height: 48px;
     width: 175px;
     left: 0px;
-    margin-top: 24px;
+    margin-top: 54px;
 }
 
 .texto-portifolio a button:hover{
     background-color: #dadadaab
+}
+
+.inverso .texto{
+    display: flex;
+}
+
+a{
+    padding: 0;
 }

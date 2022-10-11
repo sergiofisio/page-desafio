@@ -2,23 +2,30 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Ibarra Real Nova';
 }
 
 body{
     display: flex;
-    max-width: 100vw;
+    /* max-width: 100vw; */
+    max-height: 1964px;
+    margin: 0 auto;
     background-color: #FAFAFA;
     flex-direction: column;
     align-items: center;
 }
 
 .container{
-    max-width: 1100px;
-    padding: 64px 160px 0;
+    display: flex;
+    /* max-width: 1100px; */
+    padding-top: 64px;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
-    max-width: 1100px;
+    width: 1100px;
+    height: 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,21 +33,25 @@ header{
 }
 
 .logo img{
-    max-width: 4vw;
+    height: 32px;
+    width: 60px;
+
 }
 
 nav{
+    width: 278px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 a{
     list-style: none;
     text-decoration: none;
     color: #33323D;
-    font-family: 'Public Sans';
-    font-size: 60%;
-    text-transform: uppercase;
-    margin: 3%;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase   ;  
+    padding-left: 43px;
 }
 a:active{
     color: #5FB4A2;
@@ -69,13 +80,12 @@ button:hover{
 }
 
 footer{
-    height: 314px;
-    max-width: 100%;
+    height: 84px;
+    width: 1110px;
     margin-top: 150px;
 }
 
 .contact{
-    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,8 +94,6 @@ footer{
 .contact p{
     height: 84px;
     max-width: 367px;
-    
-    font-family: 'Ibarra Real Nova';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -96,16 +104,20 @@ footer{
 
 .contact a{
     margin: 0;
-    width: 30%;
+    height: 48px;
+    width: 168px; 
     display: flex;
     justify-content: flex-end;
+    padding: 0;
+    margin: 0;
 }
 
 .contact button{
     background-color: #F2F2F2;
     color: #33323D;
     border: 1px solid #33323D;
-    width: 60%;
+    height: 48px;
+    width: 168px;    
 }
 
 .contact button:hover{
@@ -119,23 +131,27 @@ section{
     justify-content: center;
 }
 .footer{
+    margin-top: 150px;
     height: 80px;
     width: 100%;
-    display: flex;
     background-color: #33323D;
-    justify-content: center;
 }
 
 .footer div{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    height: 80px;
+    justify-content: space-around;
 }
 .img-footer nav{
-    display: flex;
-    justify-content: flex-start;
+margin-left: 48px;
 }
+
+.img-footer img{
+    width: 60.08px;
+    height: 32px;
+}
+
 .img-footer nav a{
     color: #FFFFFF;
     ;
@@ -149,8 +165,15 @@ section{
     color: #5FB4A2;
 }
 
+.footer div .social{
+    display: flex;
+    width: 104px;
+    justify-content: space-between;
+}
+
 .social img{
-    padding: 0 5px;
+    height: 24px;
+    width: 24px;
 }
 
 
