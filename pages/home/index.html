@@ -11,6 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/color.css">
+    <link rel="stylesheet" href="../../css/custom.css">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
@@ -18,76 +20,63 @@
 <body>
     <div class="container">
         <header>
-            <div class="logo">
+            <div class="img-header">
                 <img src="../../assets/logo-dark.svg" alt="Logo">
             </div>
             <nav>
                 <a href="../home/index.html">home</a>
-                <a href="../portfolio/index.html">portfolio</a>
+                <a href="../portfolio/index.html">portifólio</a>
                 <a href="../contato/index.html">contato</a>
             </nav>
         </header>
-        <div class="hero">
-            <img src="../../assets/home/image-homepage-hero.jpg" alt="Capa">
-            <div class="presentation">
-                <p>Olá, me chamo Alex Spencer e eu amo construir websites lindos</p>
+        <main class="hero">
+            <div class="texto-hero">
+                <h2>
+                    Olá, me chamo Alex Spencer e eu amo construir websites lindos
+                </h2>
+                <a href="#about" class="btn-sobre-mim">SOBRE MIM</a>
             </div>
-            <div class="btn">
-                <a href="#about">
-                    <button class="button-hero">
-                        SOBRE MIM
-                    </button>
-                </a>
+        </main>
+        <section class="about" id="about">
+            <div class="img-about">
+                <img src="../../assets/home/image-homepage-profile.jpg" alt="profile">
             </div>
-        </div>
-        <section id="about">
-            <div class="img-about"><img src="../../assets/home/image-homepage-profile.jpg" alt=""></div>
-            <div class="div-about">
-                <p class="about">Sobre mim</p>
-                <p class="text-about">Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em
+            <div class="text-about">
+                <h2>Sobre mim</h2>
+                <p class="body1">Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em
                     escrever HTML acessível, usando práticas modernas de CSS e escrevendo um JavaScript limpo. Quando
                     estou escrevendo código JavaScript, na maioria das vezes estou usando React, mas posso me adapta
                     para qualquer ferramenta se necessário. Moro em Londres, UK, mas também seria feliz trabalhando
                     remotamente e tenho experiência em times remotos. Quando não estou codando, poderá me achar fora de
                     casa. Eu adoro estar próximo a natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria se
                     você desse uma olhada no meu trabalho.</p>
-                <a href="../portfolio/index.html">
-                    <button class="btn-about" type="button"> iR para
-                        PORTFOLIO
-                    </button>
-                </a>
+                <a class="btn-contato" href="../portfolio/index.html">iR para PORTFOLIO</a>
             </div>
+
         </section>
         <footer>
-            <div class="contact">
-                <p>
-                    Interessado em fazer projetos comigo?
-                </p>
-                <a href="../contato/index.html">
-                    <button class="btn-contact">
-                        CONTATO
-                    </button>
-                </a>
+            <div class="footer-text-contato">
+                <h2>Interessado em fazer projetos comigo?</h2>
             </div>
+            <a class="btn-contato" href="../contato/index.html">CONTATO</a>
         </footer>
     </div>
-    <div class="footer">
-        <div>
-            <div class="img-footer">
-                <img src="../../assets/logo-light.svg" alt="logo">
-                <nav>
-                    <a href="../home/index.html">home</a>
-                    <a href="../portfolio/index.html">portfolio</a>
-                    <a href="../contato/index.html">contato</a>
-                </nav>
-            </div>
-            <div class="social">
-                <img src="../../assets/icons/github-light.svg" alt="github">
-                <img src="../../assets/icons/linkedin-light.svg" alt="linkedin">
-                <img src="../../assets/icons/twitter-light.svg" alt="twitter">
-            </div>
+    <div class="footer grayish">
+        <div class="img-header">
+            <img src="../../assets/logo-light.svg" alt="">
+            <nav>
+                <a href="../home/index.html">home</a>
+                <a href="../portfolio/index.html">portifólio</a>
+                <a href="../contato/index.html">contato</a>
+            </nav>
         </div>
-    </div>
+        <div class="social">
+            <a href="https://github.com/sergiofisio"><img src="../../assets/icons/github-light.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/sergio-bastos-jr/"><img src="../../assets/icons/linkedin-light.svg"
+                    alt="Linkedin"></a>
+            <a href="https://twitter.com/sergiomicrosp"><img src="../../assets/icons/twitter-light.svg"
+                    alt="Twitter"></a>
+        </div>
 </body>
 
 </html>

@@ -1,0 +1,78 @@
+main{
+    background-image: url(../../assets/portfolio/fylo/image-fylo-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    align-items: flex-start;
+    margin-bottom: 64px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 498px;
+    border-top: 1px solid #33323d40;
+    border-bottom: 1px solid #33323d40;
+}
+
+.preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 1192px;
+}
+
+.preview img{
+    width: 100%;
+}
+
+.text-green{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #5FB4A2;
+}
+
+.transition{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #33323d40;
+    border-bottom: 1px solid #33323d40;
+}
+
+.transition img{
+    height: 16px;
+    width: 8px;
+}
+
+.img-left{
+    margin-right: 32px;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3{
+    color:#33323D
+}
+
+.img-right{
+    margin-left: 32px;
+}
+
+.social img{
+    margin-right: 16px;
+}
